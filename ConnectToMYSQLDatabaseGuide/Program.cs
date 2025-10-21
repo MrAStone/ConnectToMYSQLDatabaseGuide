@@ -6,6 +6,7 @@ namespace ConnectToMYSQLDatabaseGuide
     {
         static void Main(string[] args)
         {
+            // something added
             MySqlConnection c = new MySqlConnection("server=SERVER;uid=USERNAME;pwd=PASSWORD;database=DATABASENAME");
             c.Open();
             string SQL = "SELECT * FROM YOURTABLE";
